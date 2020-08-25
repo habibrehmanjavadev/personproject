@@ -1,9 +1,8 @@
 # personproject
-step 1 : download personproject.zip file
-steo 2: Unzip the folder
-step 3: copy person.sql files and run the query in mysql workbench or mysql cmd
-step 4: Import person folder to eclipse as maven project
-step 5 : run project as spring boot app or as java applicaitons
+step 1 : download project or clone repository via git clone 'https://github.com/habibrehmanjavadev/personproject.git'
+step 2: copy person.sql files and run the query in mysql workbench or mysql cmd
+step 3: unzip and Import person folder to eclipse as maven project
+step 4 : run project as spring boot app or as java applicaitons
 
 curl http://localhost:8080/api/all
 return list of persons

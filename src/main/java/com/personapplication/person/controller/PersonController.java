@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.personapplication.person.entity.Person;
 import com.personapplication.person.entity.repository.Personrepo;
-
 @RestController
 @RequestMapping("/api")
 public class PersonController {

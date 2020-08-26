@@ -24,6 +24,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+  
+    <scope>test</scope>
+</dependency>
 
 		<!-- JPA Data -->
 		<dependency>
@@ -38,8 +44,13 @@
 		</dependency>
 
 		<!-- MySQL Connector-J -->
-		 <dependency> <groupId>mysql</groupId> <artifactId>mysql-connector-java</artifactId> 
+		 <dependency> 
+		 <groupId>mysql</groupId> 
+		 <artifactId>mysql-connector-java</artifactId> 
 			</dependency> 
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+
+
 
 <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/sqljdbc4 -->
   <!--<dependency>
